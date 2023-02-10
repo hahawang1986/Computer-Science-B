@@ -1,7 +1,7 @@
-cd ~/Computer-Science-B
+#cd ~/Computer-Science-B
 git branch branch3
 git checkout branch3
-git rm /home/mark/Computer-Science-B/module-1/week2-topic2/assignment/*.sh
+git rm *.sh
 git commit -am "rm all .sh files"
 touch file13.txt
 git add file13.txt
