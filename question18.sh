@@ -12,6 +12,7 @@ git merge ready1
 git merge ready2
 git merge ready3
 git branch -d $(git branch -v | grep -E ready*)
+git commit -am "delete all branches with ready"
 git branch -r | grep -E */update*
 git checkout update1
 git checkout update2
