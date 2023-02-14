@@ -1,3 +1,5 @@
-These changes are important! They should replace any other changes.
-Other changes that are also important.
-These changes are important. They should be included in the final version alongside any other changes.
+git clone https://github.com/ian-knight-uofa/git-practice-01.git
+cd git-practice-01
+git checkout branch1
+git checkout main
+git merge branch1
